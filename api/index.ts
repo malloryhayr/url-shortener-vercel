@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from '@vercel/node';
 
 export default (req: NowRequest, res: NowResponse) => {
-    res.redirect('https://igalaxy.dev');
+    res.redirect('https://igalaxy.dev?defaultredirect=true');
 }
