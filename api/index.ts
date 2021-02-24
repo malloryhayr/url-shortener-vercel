@@ -33,10 +33,6 @@ class Server {
         app.get('*', (req, res) => {
             return res.redirect(this.defaultRedirect);
         });
-        
-        app.listen(this.port, () => {
-            console.log(`URL shortener started on port ${this.port}`);
-        });
     }
 }
 
