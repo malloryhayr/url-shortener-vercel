@@ -12,5 +12,6 @@ const routes: any = {
 
 export default (req: NowRequest, res: NowResponse) => {
   const route = routes[req.query.route as string] || 'https://igalaxy.dev';
+  console.log(route);
   res.redirect(route);
 }
