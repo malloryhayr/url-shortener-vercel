@@ -4,5 +4,5 @@
       "includeFiles": "_files/**"
     }
   },
-  "rewrites": [{ "source": "/:route", "destination": "/api" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
 }
