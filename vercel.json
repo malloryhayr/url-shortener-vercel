@@ -3,5 +3,6 @@
     "api/index.ts": {
       "includeFiles": "_files/**"
     }
-  }
+  },
+  "rewrites": [{ "source": "/:route", "destination": "/api" }]
 }
