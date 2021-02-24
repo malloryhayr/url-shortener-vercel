@@ -5,13 +5,13 @@ import path from "path";
 const app = express();
 
 interface Route {
-  path: string,
-  result: string
+    path: string,
+    result: string
 }
 
 interface ServerOptions {
-  port?: number,
-  defaultRedirect?: string
+    port?: number,
+    defaultRedirect?: string
 }
 
 class Server {
