@@ -1,6 +1,6 @@
 import { NowRequest, NowResponse } from '@vercel/node';
 
-const routes: any = {
+const routes: {[key: string]: string} = {
   twitter: 'https://twitter.com/_iGalaxyYT',
   youtube: 'https://youtube.com/c/WhiteGalaxyOfficial',
   twitch: 'https://twitch.tv/igalaxyofficial',
