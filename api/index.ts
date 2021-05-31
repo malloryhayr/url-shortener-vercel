@@ -4,7 +4,7 @@ const routes: {[key: string]: string} = {
   notify: 'https://sub.to/igalaxy',
   twitter: 'https://twitter.com/_iGalaxyYT',
   youtube: 'https://youtube.com/c/WhiteGalaxyOfficial',
-  twitch: 'https://twitch.tv/igalaxyofficial',
+  twitch: 'https://twitch.tv/igalaxylive',
   github: 'https://github.com/iGalaxyYT',
   discord: 'https://discord.gg/wjtQFPP',
   source: 'https://github.com/iGalaxyYT/url-shortener-vercel',
